@@ -14,7 +14,7 @@ export class ProfileComponent implements OnInit {
   username = '';
   name = '';
   role = '';
-  showCard = true; // 👈 To control overlay card visibility
+  showCard = true; 
 
   constructor(
     private http: HttpClient,
