@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    background-color: #26354d;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

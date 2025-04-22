@@ -1,0 +1,15 @@
+<div class="login-container">
+    <div class="login-form">
+      <div class="logo">BH</div>
+      
+      <form (ngSubmit)="onLogin()">
+        <input type="text" [(ngModel)]="username" name="username" placeholder="USERNAME" required>
+        <input type="password" [(ngModel)]="password" name="password" placeholder="PASSWORD" required>
+        <button type="submit">LOGIN</button>
+      </form>
+  
+
+      <!-- <div class="error" *ngIf="error">{{ error }}</div> -->
+    </div>
+  </div>
+  

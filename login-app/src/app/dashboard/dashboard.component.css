@@ -1,0 +1,228 @@
+
+.dashboard-container { 
+  display: flex;
+  font-family: 'Segoe UI', sans-serif;
+}
+.nav-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.menu-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1e2b45;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: #2b3b57;
+}
+
+.sidebar a.active {
+  background-color: #31415e;
+  font-weight: bold;
+  color: #4b9cff;
+  border-radius: 6px;
+}
+
+
+.main-content {
+  flex: 1;
+  background: #f7f8fa;
+  padding: 20px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  font-size: 14px;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style: none;
+  width: 150px;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+
+.projects {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0 10px;
+}
+
+th {
+  text-align: left;
+  color: #8a8f9d;
+}
+
+td {
+  padding: 10px 0;
+}
+
+.icon {
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.purple {
+  color: purple;
+}
+
+.blue {
+  color: steelblue;
+}
+
+.orange {
+  color: darkorange;
+}
+
+.pagination {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #8a8f9d;
+}
+
+
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.view-btn {
+  background-color: #4b9cff;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.view-btn:hover {
+  background-color: #1e6ed8;
+}
+
+table tbody tr:hover {
+  background-color: #f1f5ff;
+  transition: 0.3s;
+}
+
+.arrow-icon {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.dropdown-arrow {
+  width: 10px;
+  height: 10px;
+  margin-left: 4px;
+  vertical-align: middle;
+}

@@ -1,0 +1,13 @@
+<div class="overlay" *ngIf="showCard">
+  <div class="profile-card">
+
+    <img src="assets/close.png" alt="Close" class="close-btn" (click)="closeCard()" />
+    
+    <h2>Profile</h2>
+    <p><strong>Name:</strong> {{ name }}</p>
+    <p><strong>Username:</strong> {{ username }}</p>
+    <p><strong>Role:</strong> {{ role }}</p>
+  </div>
+</div>
+
+  
