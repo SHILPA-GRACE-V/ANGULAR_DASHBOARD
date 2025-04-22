@@ -7,6 +7,6 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './file-manager.component.html',
-  styleUrls: ['./file-manager.component.css'] // ✅ typo fix: styleUrls instead of styleUrl
+  styleUrls: ['./file-manager.component.css'] 
 })
 export class FileManagerComponent {}
